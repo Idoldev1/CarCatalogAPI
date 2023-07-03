@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj": {}
+    "c:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj": {
+    "c:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj",
         "projectName": "FirstWebAPI",
-        "projectPath": "C:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj",
+        "projectPath": "c:\\Users\\Hp\\Desktop\\FirstWebAPI\\FirstWebAPI.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Desktop\\FirstWebAPI\\obj\\",
+        "outputPath": "c:\\Users\\Hp\\Desktop\\FirstWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,14 @@
               "target": "Package",
               "version": "[8.1.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -61,6 +69,18 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

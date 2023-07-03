@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using FirstWebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -29,7 +30,6 @@ public class CarRepository : ICarRepository
         if (car != null)
         {
             context.Cars.Remove(car);
-            context.SaveChanges();
         }
         return Save();
     }
@@ -39,21 +39,20 @@ public class CarRepository : ICarRepository
         return context.Cars.Any(c => c.Id == Id);
     }
 
-    public IEnumerable<Car> GetAllCar()
+    public ICollection<Car> GetAllCar()
     {
-        return context.Cars;
+        return context.Cars.OrderBy(c => c.Id).ToList();
     }
 
-    public Car GetCar(int Id)
+    public Car GetCar(int id)
     {
-        return context.Cars.Find(Id);
+        return context.Cars.Where(c => c.Id == id).FirstOrDefault();
     }
 
     public bool Update(Car updateCar)
     {
         var car = context.Cars.Attach(updateCar);
         car.State = EntityState.Modified;
-        context.SaveChanges();
         return Save();
     }
 

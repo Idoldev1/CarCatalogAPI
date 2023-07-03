@@ -5,8 +5,8 @@ namespace FirstWebAPI.Data;
 
 public interface ICarRepository
 {
-    IEnumerable<Car> GetAllCar();
-    Car GetCar(int Id);
+    ICollection<Car> GetAllCar();
+    Car GetCar(int id);
     Car GetCar(string name);
     bool Addcar(Car car);
     bool CarExists(int Id);

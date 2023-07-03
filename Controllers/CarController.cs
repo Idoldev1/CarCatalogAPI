@@ -2,7 +2,10 @@ using AutoMapper;
 using FirstWebAPI.Data;
 using FirstWebAPI.Dto;
 using FirstWebAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 
 namespace FirstWebAPI.Controllers
 {
@@ -12,11 +15,17 @@ namespace FirstWebAPI.Controllers
     {
         private readonly ICarRepository carRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<CarController> logger;
+        private readonly IMemoryCache _memoryCache;
 
-        public CarController(ICarRepository carRepository, IMapper mapper)
+        public CarController(ICarRepository carRepository
+                            ,IMapper mapper, ILogger<CarController> logger
+                            ,IMemoryCache memoryCache)
         {
             this.carRepository = carRepository;
             this.mapper = mapper;
+            this.logger = logger;
+            _memoryCache = memoryCache;
         }
 
 
@@ -25,37 +34,72 @@ namespace FirstWebAPI.Controllers
         [ProducesResponseType(200, Type = typeof(IEnumerable<Car>))]
         public IActionResult GetAllCar()
         {
-            var car = carRepository.GetAllCar();
+            logger.LogInformation("Request made for get all Car");
 
-            if(!ModelState.IsValid)
+            var cachekey = "cars";
+            if (!_memoryCache.TryGetValue(cachekey, out IEnumerable<Car> cars))
             {
-                return BadRequest(ModelState);
+                cars = carRepository.GetAllCar();
+
+                if(!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                //Setting up cache options
+                var cacheExpiryOptions = new MemoryCacheEntryOptions
+                {
+                    AbsoluteExpiration = DateTime.Now.AddSeconds(60),
+                    Priority = CacheItemPriority.High,
+                    SlidingExpiration = TimeSpan.FromSeconds(40)
+                };
+
+                //Setting cache entries
+                _memoryCache.Set(cachekey, cars, cacheExpiryOptions);
             }
-            return Ok(car);
+
+            return Ok(cars);
         }
 
 
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         [ProducesResponseType(200, Type = typeof(Car))]
         [ProducesResponseType(400)]
-        public IActionResult GetCar(int? id)
+        public IActionResult GetCar(int id)
         {
-            if (!carRepository.CarExists(id ?? 1))
-            {
-                return NotFound();
-            }
-            
-            var car = mapper.Map<CarDto>(carRepository.GetCar(id ?? 1));
+            logger.LogInformation("Request made for a specific Car using the Id");
 
-            if(!ModelState.IsValid)
+            var cachekey = "car";
+            if (!_memoryCache.TryGetValue(cachekey, out IEnumerable<Car> car))
             {
-                return BadRequest(ModelState);
+                if (!carRepository.CarExists(id))
+                {
+                    return NotFound();
+                }
+
+                var carId = mapper.Map<CarDto>(carRepository.GetCar(id));
+
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                //Setting up cache options
+                var cacheExpiryOptions = new MemoryCacheEntryOptions
+                {
+                    AbsoluteExpiration = DateTime.Now.AddSeconds(60),
+                    Priority = CacheItemPriority.High,
+                    SlidingExpiration = TimeSpan.FromSeconds(40)
+                };
+
+                _memoryCache.Set(cachekey, car, cacheExpiryOptions);
             }
             return Ok(car);
         }
 
 
         [HttpPost]
+        [Authorize]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         public IActionResult Addcar(CarDto carCreate)
@@ -91,20 +135,21 @@ namespace FirstWebAPI.Controllers
 
 
 
-        [HttpPut("{Id}")]
+        [HttpPut("{id}")]
+        [Authorize]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public IActionResult Update(int Id, [FromBody] CarDto updateCar)
+        public IActionResult Update(int id, [FromBody] CarDto updateCar)
         {
             if (updateCar == null)
                 return BadRequest(ModelState);
 
-            if (Id != updateCar.Id)
+            if (id != updateCar.Id)
                 return BadRequest(ModelState);
 
 
-            if (!carRepository.CarExists(Id))
+            if (!carRepository.CarExists(id))
                 return NotFound();
 
             if (!ModelState.IsValid)
@@ -123,27 +168,27 @@ namespace FirstWebAPI.Controllers
 
 
         [HttpDelete("(carId)")]
+        [Authorize]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public IActionResult Delete(int Id)
+        public IActionResult Delete(int id)
         {
-            if (!carRepository.CarExists(Id))
+            if (!carRepository.CarExists(id))
             {
                 return NotFound();
             }
 
-            var carDelete = carRepository.CarExists(Id);
+            var carDelete = carRepository.CarExists(id);
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            if(!carRepository.Delete(Id))
+            if(!carRepository.Delete(id))
             {
                 ModelState.AddModelError("", "Something went wrong deleting data");
             }
             return NoContent();
         }
-
     }
 }
