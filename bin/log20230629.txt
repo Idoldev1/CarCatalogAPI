@@ -1,0 +1,223 @@
+2023-06-29 15:36:51.152 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 15:36:51.298 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 15:36:51.303 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 15:36:51.304 +01:00 [INF] Hosting environment: Development
+2023-06-29 15:36:51.304 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 15:36:53.562 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 15:36:53.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 348.7118ms
+2023-06-29 15:37:08.118 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/car - -
+2023-06-29 15:37:08.125 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/car - - - 404 0 - 5.5821ms
+2023-06-29 17:33:37.392 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 17:33:37.591 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 17:33:37.597 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 17:33:37.597 +01:00 [INF] Hosting environment: Development
+2023-06-29 17:33:37.598 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 17:33:44.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:33:45.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 549.2763ms
+2023-06-29 17:34:11.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:34:11.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 0.9934ms
+2023-06-29 17:34:59.944 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:34:59.962 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 18.1736ms
+2023-06-29 17:35:23.138 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/car - -
+2023-06-29 17:35:23.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/car - - - 404 0 - 5.1566ms
+2023-06-29 17:36:02.572 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger - -
+2023-06-29 17:36:02.577 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger - - - 301 0 - 5.2999ms
+2023-06-29 17:36:02.618 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:36:02.882 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 264.2560ms
+2023-06-29 17:36:03.381 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:36:03.382 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - -
+2023-06-29 17:36:03.428 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - -
+2023-06-29 17:36:03.640 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-29 17:36:03.640 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:36:03.651 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-29 17:36:03.654 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 272.1175ms
+2023-06-29 17:36:03.654 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 225.9293ms
+2023-06-29 17:36:03.654 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 271.6572ms
+2023-06-29 17:36:04.557 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:36:04.557 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:36:04.557 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.5670ms
+2023-06-29 17:36:04.876 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:36:05.297 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 420.6471ms
+2023-06-29 17:36:05.402 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:36:05.403 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:36:05.403 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.5343ms
+2023-06-29 17:43:42.046 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 17:43:42.111 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 17:43:42.117 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 17:43:42.117 +01:00 [INF] Hosting environment: Development
+2023-06-29 17:43:42.118 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 17:43:42.733 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:43:42.833 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 99.7942ms
+2023-06-29 17:43:47.931 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:43:48.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 76.1721ms
+2023-06-29 17:43:48.056 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:43:48.099 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:43:48.099 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 43.8965ms
+2023-06-29 17:43:48.446 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:43:48.447 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:43:48.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 1.4353ms
+2023-06-29 17:43:48.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:43:48.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:43:48.523 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:43:48.524 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.6700ms
+2023-06-29 17:43:48.729 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 228.9636ms
+2023-06-29 17:44:33.921 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 17:44:34.011 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 17:44:34.029 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 17:44:34.030 +01:00 [INF] Hosting environment: Development
+2023-06-29 17:44:34.030 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 17:44:34.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:44:34.768 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 169.5838ms
+2023-06-29 17:44:39.936 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:44:40.030 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 94.0574ms
+2023-06-29 17:44:40.108 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:44:40.214 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:44:40.232 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 124.7137ms
+2023-06-29 17:44:40.302 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:44:40.303 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:44:40.303 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 1.4008ms
+2023-06-29 17:44:40.346 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:44:40.363 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:44:40.363 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:44:40.363 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.5444ms
+2023-06-29 17:44:40.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 218.8388ms
+2023-06-29 17:44:41.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:44:41.525 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 4.4161ms
+2023-06-29 17:44:41.581 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:44:41.595 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:44:41.595 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 15.6429ms
+2023-06-29 17:44:41.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:44:41.710 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:44:41.710 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.7199ms
+2023-06-29 17:44:41.747 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:44:41.755 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.1843ms
+2023-06-29 17:44:41.768 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:44:41.769 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:44:41.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.8560ms
+2023-06-29 17:46:14.479 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 17:46:14.570 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 17:46:14.577 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 17:46:14.577 +01:00 [INF] Hosting environment: Development
+2023-06-29 17:46:14.578 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 17:46:15.208 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 17:46:15.350 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 145.0896ms
+2023-06-29 17:46:21.163 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:46:21.238 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 75.8094ms
+2023-06-29 17:46:21.292 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:46:21.337 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:46:21.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 45.3767ms
+2023-06-29 17:46:21.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:46:21.419 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:46:21.420 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 1.5602ms
+2023-06-29 17:46:21.457 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:46:21.475 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:46:21.476 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:46:21.476 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.8419ms
+2023-06-29 17:46:21.651 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.3542ms
+2023-06-29 17:46:22.555 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 17:46:22.557 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8898ms
+2023-06-29 17:46:22.604 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 17:46:22.633 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 17:46:22.641 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 37.4290ms
+2023-06-29 17:46:22.719 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:46:22.720 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:46:22.720 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.7939ms
+2023-06-29 17:46:22.769 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 17:46:22.775 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.6329ms
+2023-06-29 17:46:22.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 17:46:22.791 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 17:46:22.791 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.6995ms
+2023-06-29 17:48:12.153 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/api/Car/{Id} - -
+2023-06-29 17:48:12.178 +01:00 [INF] Executing endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 17:48:12.361 +01:00 [INF] Route matched with {action = "GetCar", controller = "Car"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCar(System.Nullable`1[System.Int32]) on controller FirstWebAPI.Controllers.CarController (FirstWebAPI).
+2023-06-29 17:48:15.039 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-06-29 17:48:15.104 +01:00 [INF] Executed action FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI) in 2734.8545ms
+2023-06-29 17:48:15.110 +01:00 [INF] Executed endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 17:48:15.116 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/api/Car/{Id} - - - 400 - application/problem+json;+charset=utf-8 2963.4585ms
+2023-06-29 18:09:54.195 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 18:09:54.267 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 18:09:54.271 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 18:09:54.271 +01:00 [INF] Hosting environment: Development
+2023-06-29 18:09:54.271 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 18:09:55.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 18:09:55.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 170.4564ms
+2023-06-29 18:10:01.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 18:10:01.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 99.9862ms
+2023-06-29 18:10:01.636 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 18:10:01.718 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 18:10:01.718 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 82.5464ms
+2023-06-29 18:10:02.023 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:10:02.024 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:10:02.024 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.9840ms
+2023-06-29 18:10:02.080 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 18:10:02.110 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:10:02.111 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:10:02.111 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.9831ms
+2023-06-29 18:10:02.341 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 261.4079ms
+2023-06-29 18:10:57.386 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/api/Car/{Id} - -
+2023-06-29 18:10:57.391 +01:00 [INF] Executing endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:10:57.418 +01:00 [INF] Route matched with {action = "GetCar", controller = "Car"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCar(System.Nullable`1[System.Int32]) on controller FirstWebAPI.Controllers.CarController (FirstWebAPI).
+2023-06-29 18:10:57.937 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-06-29 18:10:57.952 +01:00 [INF] Executed action FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI) in 522.7707ms
+2023-06-29 18:10:57.958 +01:00 [INF] Executed endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:10:57.966 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/api/Car/{Id} - - - 400 - application/problem+json;+charset=utf-8 580.1963ms
+2023-06-29 18:11:43.774 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/api/Car/{Id} - -
+2023-06-29 18:11:43.780 +01:00 [INF] Executing endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:11:43.781 +01:00 [INF] Route matched with {action = "GetCar", controller = "Car"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCar(System.Nullable`1[System.Int32]) on controller FirstWebAPI.Controllers.CarController (FirstWebAPI).
+2023-06-29 18:11:43.793 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-06-29 18:11:43.794 +01:00 [INF] Executed action FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI) in 12.7701ms
+2023-06-29 18:11:43.794 +01:00 [INF] Executed endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:11:43.794 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/api/Car/{Id} - - - 400 - application/problem+json;+charset=utf-8 20.1412ms
+2023-06-29 18:18:50.497 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 18:18:50.566 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 18:18:50.571 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 18:18:50.571 +01:00 [INF] Hosting environment: Development
+2023-06-29 18:18:50.571 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 18:18:51.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 18:18:51.830 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 148.5753ms
+2023-06-29 18:18:55.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 18:18:55.585 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 90.8089ms
+2023-06-29 18:18:55.715 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 18:18:55.757 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 18:18:55.757 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 42.0445ms
+2023-06-29 18:18:56.068 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:18:56.068 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:18:56.069 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 1.1231ms
+2023-06-29 18:18:56.122 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 18:18:56.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:18:56.146 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:18:56.146 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.5204ms
+2023-06-29 18:18:56.371 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.4266ms
+2023-06-29 18:31:00.215 +01:00 [INF] Now listening on: https://localhost:7288
+2023-06-29 18:31:00.292 +01:00 [INF] Now listening on: http://localhost:5222
+2023-06-29 18:31:00.298 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 18:31:00.299 +01:00 [INF] Hosting environment: Development
+2023-06-29 18:31:00.299 +01:00 [INF] Content root path: C:\Users\Hp\Desktop\FirstWebAPI\
+2023-06-29 18:31:00.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/ - -
+2023-06-29 18:31:01.099 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/ - - - 404 0 - 110.4377ms
+2023-06-29 18:31:06.001 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/index.html - -
+2023-06-29 18:31:06.120 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/index.html - - - 200 - text/html;charset=utf-8 119.0316ms
+2023-06-29 18:31:06.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - -
+2023-06-29 18:31:06.204 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - -
+2023-06-29 18:31:06.209 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - -
+2023-06-29 18:31:06.347 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-29 18:31:06.347 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-29 18:31:06.347 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-29 18:31:06.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 151.3104ms
+2023-06-29 18:31:06.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 145.8765ms
+2023-06-29 18:31:06.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/swagger-ui.css - - - 200 144929 text/css 181.3156ms
+2023-06-29 18:31:06.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:31:06.681 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:31:06.681 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.7200ms
+2023-06-29 18:31:06.782 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - -
+2023-06-29 18:31:06.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - -
+2023-06-29 18:31:06.850 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-29 18:31:06.851 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/favicon-32x32.png - - - 200 628 image/png 0.7873ms
+2023-06-29 18:31:07.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.7205ms
+2023-06-29 18:32:52.147 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7288/api/Car/{Id} - -
+2023-06-29 18:32:52.156 +01:00 [INF] Executing endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:32:52.179 +01:00 [INF] Route matched with {action = "GetCar", controller = "Car"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCar(System.Nullable`1[System.Int32]) on controller FirstWebAPI.Controllers.CarController (FirstWebAPI).
+2023-06-29 18:32:52.678 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-06-29 18:32:52.694 +01:00 [INF] Executed action FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI) in 505.5588ms
+2023-06-29 18:32:52.703 +01:00 [INF] Executed endpoint 'FirstWebAPI.Controllers.CarController.GetCar (FirstWebAPI)'
+2023-06-29 18:32:52.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7288/api/Car/{Id} - - - 400 - application/problem+json;+charset=utf-8 568.9345ms
